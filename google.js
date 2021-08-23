@@ -24,7 +24,7 @@ async function getDatabase() {
   // Pull the database from the spreadsheet
   const response = await sheets.spreadsheets.values.get({
     spreadsheetId: '1i-3PZDh6ug9L_NY1gCmWyyZZ24D-7uQoDxb9bf6ruEM',
-    range: '1629618992899',
+    range: '1629689434944',
     auth,
   });
 
