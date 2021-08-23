@@ -2,10 +2,13 @@
   "name": "auris",
   "version": "1.0.0",
   "description": "Automate the playing of AMQ",
-  "main": "index.js",
+  "license": "GPL-3.0",
   "author": "Jason <ja2415n@gmail.com>",
   "type": "module",
-  "license": "GPL-3.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "prettier": {
     "arrowParens": "avoid",
     "semi": true,
